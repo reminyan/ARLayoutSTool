@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#aa222222"
+    android:gravity="right|left"
+    android:orientation="vertical" >
+
+ 	<TextView
+ 	    android:layout_width="fill_parent"
+ 	    android:layout_height="wrap_content"
+ 	    android:text="about..."
+ 	    android:background="#2222cc"
+ 	    android:textSize="16sp" />
+
+ 	<TextView
+ 	    android:layout_width="wrap_content"
+ 	    android:layout_height="wrap_content"
+ 	    android:gravity="center"
+ 	    android:textSize="20sp"
+ 	    android:text="LayoutTestApp powered by AndAR." />
+
+ 	<TextView
+ 	    android:id="@+id/aboutText"
+ 	    android:layout_width="wrap_content"
+ 	    android:layout_height="wrap_content"
+ 	    android:autoLink="web|all"
+ 	    android:gravity="fill"
+ 	    android:text="このツールはGPLv3でライセンスされたライブラリをカスタマイズして使用しています。　改変/再配布はＧＰＬv3に準じてください。　\n
+ 	    なお、ソースファイルもしくはライセンス条文などについては[https://github.com/reminyan/ARLayoutSTool.git]から入手できます。"
+ 	    android:textSize="10sp" />
+
+  	<TextView
+ 	    android:layout_width="wrap_content"
+ 	    android:layout_height="wrap_content"
+ 	    android:gravity="center"
+ 	    android:textSize="10sp"
+ 	    android:text="** ダイアログの外をタップして閉じる... **" />
+
+
+</LinearLayout>
